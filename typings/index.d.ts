@@ -1,4 +1,4 @@
-declare module "simple-prompt" {
+declare module "prompt-simple" {
 
     class SimplePrompt {
 

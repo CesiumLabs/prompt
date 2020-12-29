@@ -1,16 +1,16 @@
-# Simple Prompt
+# Prompt Simple
 Simple prompt for node.js
 
 # Installing
 
 ```sh
-$ npm i simple-prompt
+$ npm i prompt-simple
 ```
 
 # Example
 
 ```js
-const { prompt } = require("simple-prompt");
+const { prompt } = require("prompt-simple");
 
 const name = prompt("What is your name?\n-> ");
 
