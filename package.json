@@ -1,13 +1,13 @@
 {
   "name": "prompt-simple",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple package to prompt in nodejs",
   "main": "index.js",
   "types": "typings/index.d.ts",
   "scripts": {
     "test": "cd test && node index.js",
-    "install": "node-gyp build",
-    "build": "node-gyp build"
+    "install": "node-gyp configure && node-gyp build",
+    "build": "node-gyp configure && node-gyp build"
   },
   "repository": {
     "type": "git",
